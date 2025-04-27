@@ -1,0 +1,36 @@
+
+
+.left:hover, .right:hover {
+    scale: 1.2;
+}
+
+.left:active, .right:active {
+    background-color: aliceblue;
+
+}
+
+.setas {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: bisque; 
+    border: none;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    left: -200px; /* Posiciona à esquerda */
+}
+
+.right {
+    right: -200px; /* Posiciona à direita */
+}

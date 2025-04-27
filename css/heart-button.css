@@ -1,0 +1,28 @@
+.heart-button {
+    width: 200px;
+    height: 100px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 2px  rgb(234, 0, 255);
+    background-color: rgb(124, 16, 92);
+    border: none;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+}
+
+.heart-button:hover {
+    scale: 1.1;
+}
+
+.heart-button:active {
+    background-color: white;
+
+}
+
+.button-div {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}

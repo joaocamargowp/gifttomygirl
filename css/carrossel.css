@@ -1,0 +1,26 @@
+.carrosel {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    width: 350px;
+    height: 262px;
+    box-shadow: 0px 0px 20px 4px purple;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carrosel img {
+    position: absolute; /* Garante que as imagens fiquem sobrepostas */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajuste conforme necessário */
+    height: auto;
+    opacity: 0; /* Esconde todas as imagens inicialmente */
+    transition: opacity 0.5s ease-in-out; /* Adiciona a transição suave */
+}
+
+.carrosel img:first-child {
+    display: block; /* Mostra a primeira imagem inicialmente */
+}
