@@ -11,26 +11,20 @@
 
 .setas {
     position: absolute; 
-    top: 50%; 
-    transform: translateY(-50%); 
-    background-color: bisque; 
+    width: 10vh;
+    height: 10vh;
+    top: 40vh;
     border: none;
-    border-radius: 50%;
-    width: 140px;
-    height: 140px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-weight: 700;
+    border-radius: 10vh;
+    transition: .2s ease-in-out;
+
 }
 
 .left {
-    left: -200px; /* Posiciona à esquerda */
+    left: 0vh;
 }
 
 .right {
-    right: -200px; /* Posiciona à direita */
+    right: 0vh; 
 }

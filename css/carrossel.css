@@ -12,13 +12,13 @@
 }
 
 .carrosel img {
-    position: absolute; /* Garante que as imagens fiquem sobrepostas */
-    top: 0;
-    left: 0;
-    width: 100%; /* Ajuste conforme necessário */
-    height: auto;
-    opacity: 0; /* Esconde todas as imagens inicialmente */
-    transition: opacity 0.5s ease-in-out; /* Adiciona a transição suave */
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 38vh;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
 }
 
 .carrosel img:first-child {

@@ -12,5 +12,7 @@
     visibility: hidden;
     opacity: 0;
     font-family: 'Inter';
+    border-radius: 10px;
+    color: rgb(39, 39, 65);
 
 }
